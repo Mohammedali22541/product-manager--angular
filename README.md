@@ -34,4 +34,3 @@ It supports full Create, Read, Update, and Delete operations with modals, valida
 ## 📸 Screenshots
 
 > ![image](https://github.com/user-attachments/assets/59e27ab1-173e-4624-8273-9708bbe85513)
-
