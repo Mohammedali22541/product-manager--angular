@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@import "ngx-toastr/toastr";
+
+.invalid-data {
+  @apply text-red-500 border-red-500 focus:border-red-500 focus:ring-red-500;
+}
+.valid-data {
+  @apply text-green-100 border-green-500 focus:border-green-500 focus:ring-green-500;
+}
+
+.disabled-Button {
+  @apply bg-gray-300 text-gray-500 cursor-not-allowed;
+}
+.valid-button {
+  @apply bg-blue-700 hover:bg-blue-800 cursor-pointer;
+}
+
+::placeholder {
+  text-transform: capitalize;
+}
